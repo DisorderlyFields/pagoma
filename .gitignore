@@ -5,13 +5,15 @@ Makefile
 cmake_install.cmake
 compile_commands.json
 **/.cache/*
+CTestTestfile.cmake
+**/_deps/
+
+# Python virtual environments
+**/venv/
 
 # Solution outputs
 *.vtu
 *.pvtu
-
-# Executable
-pagoma
 
 # Prerequisites
 *.d
